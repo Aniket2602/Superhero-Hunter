@@ -74,6 +74,11 @@ You need to sign up on [Marvel Developer Portal](https://developer.marvel.com/si
 <br>
 <br>
 
+## Note
+Please wait for some seconds for the API to load properly when you start searching.
+<br>
+<br>
+
 ## Demo
 > Checkout the Website [Web Application](https://aniket2602.github.io/Superhero-Hunter/)
 
