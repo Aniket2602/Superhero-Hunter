@@ -30,6 +30,7 @@ Superhero Hunter is a web application that allows users to search for Marvel sup
 
 ![App Screenshot](https://github.com/Aniket2602/Superhero-Hunter/blob/master/Screenshots/Screenshot%20_1.png)
 <br>
+<br>
 ![App Screenshot](https://github.com/Aniket2602/Superhero-Hunter/blob/master/Screenshots/Screenshot_2.png)
 
 <br>
@@ -47,6 +48,7 @@ Superhero Hunter is a web application that allows users to search for Marvel sup
 <hr>
 
 ![App Screenshot](https://github.com/Aniket2602/Superhero-Hunter/blob/master/Screenshots/Screenshot_4.png)
+<br>
 <br>
 ![App Screenshot](https://github.com/Aniket2602/Superhero-Hunter/blob/master/Screenshots/Screenshot_5.png)
 
