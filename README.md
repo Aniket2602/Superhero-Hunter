@@ -24,7 +24,29 @@ Superhero Hunter is a web application that allows users to search for Marvel sup
   <br>
 
 ## Screenshots
-![App Screenshot](https://github.com/Aniket2602/Alarm-Clock/blob/main/Screenshot/Screenshot_1.png)
+<hr>
+<h3 style="text-align: center">index.html</h3>
+<hr>
+
+![App Screenshot](https://github.com/Aniket2602/Superhero-Hunter/blob/master/Screenshots/Screenshot%20_1.png)
+![App Screenshot](https://github.com/Aniket2602/Superhero-Hunter/blob/master/Screenshots/Screenshot_2.png)
+
+<br>
+
+<hr>
+<h3 style="text-align: center">myfavourite.html</h3>
+<hr>
+
+![App Screenshot](https://github.com/Aniket2602/Superhero-Hunter/blob/master/Screenshots/Screenshot_3.png)
+
+<br>
+
+<hr>
+<h3 style="text-align: center">superhero.html</h3>
+<hr>
+
+![App Screenshot](https://github.com/Aniket2602/Superhero-Hunter/blob/master/Screenshots/Screenshot_4.png)
+![App Screenshot](https://github.com/Aniket2602/Superhero-Hunter/blob/master/Screenshots/Screenshot_5.png)
 
 <br>
 <br>
@@ -50,7 +72,7 @@ You need to sign up on [Marvel Developer Portal](https://developer.marvel.com/si
 <br>
 
 ## Demo
-> Checkout the Website [Web Application](https://aniket2602.github.io/Alarm-Clock/)
+> Checkout the Website [Web Application](https://aniket2602.github.io/Superhero-Hunter/)
 
 > Checkout the Application Demo Video [YouTube]()
 
