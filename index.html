@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" type="text/css" href="CSS_Files/homeStyle.css" />
+
+    <!-- Link to Google Fonts for custom font 'Poppins' -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+
+    <!-- Link to external JavaScript library for cryptographic operations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+  </head>
+  <body class="bg-color">
+    <!-- Header Part of the web-site -->
+    <header>
+      <div id="nav-container" class="display-flex bg-color">
+        <!-- Logo and app name container -->
+        <div class="display-flex">
+          <!-- App icon -->
+          <img
+            src="Media/icon.jpeg"
+            alt="superhero-hunter-app-icon"
+            id="app-icon"
+          />
+          <!-- App name and subtitle -->
+          <div class="margin-left font-segoe" id="app-name">
+            <p>Ninja Superhero</p>
+            <p class="font-size-small">Hunter Studio</p>
+          </div>
+        </div>
+        <!-- Button to navigate to favourites page -->
+        <button
+          onclick="window.location.href='myfavourite.html'"
+          class="font-size-small font-segoe color-wh remove-decoration"
+          id="favourites"
+        >
+          Favourite Superheroes
+        </button>
+      </div>
+    </header>
+
+    <!-- Main content of the web-site -->
+    <main id="main" class="bg-color">
+      <!-- Search bar container -->
+      <div id="serach-div" class="display-flex">
+        <!-- Search input field -->
+        <input
+          type="search"
+          placeholder="Search for a superhero..."
+          class="remove-decoration add-decoration font-poppins"
+          id="input-type-search"
+        />
+        <!-- Search button -->
+        <button
+          class="margin-left remove-decoration add-decoration font-poppins"
+          id="search-btn"
+        >
+          Search
+        </button>
+      </div>
+      <!-- Container for search results -->
+      <div id="results" class="display-flex"></div>
+    </main>
+
+    <!-- Background video as wallpaper for the main page -->
+    <video autoplay muted loop id="background-video">
+      <source src="/Media/home_page_wallpaper.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Link to external JavaScript file for additional functionality -->
+    <script src="Javascript_Files/homeScript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+/* Universal selector to reset margin and padding for all elements */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Styling for background image to cover the entire viewport */
+#bg-image {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -5; /* Places the image behind other content */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Styling for the results container */
+#results {
+  justify-content: space-evenly;
+  height: 28.5rem;
+  margin: 0.5rem auto;
+}
+
+/* Styling for the favourites page container */
+#favouritesPage {
+  width: 75%;
+  height: 38rem;
+  margin: 2.5rem auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+  border: 2px solid black;
+}
+
+/* Styling for the back button */
+#button {
+  width: 7rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Poppins";
+  padding: 10px 25px;
+  border-radius: 0.5rem;
+  background-color: rgba(165, 42, 42, 0.8);
+}
+
+p {
+  font-family: "Poppins";
+  font-size: 1.3rem;
+  margin: 3rem;
+}
+
+/* Common classes*/
+.text-c {
+  text-align: center;
+}
+
+.text-style {
+  margin-top: 1.5rem;
+  font-family: "Poppins";
+  letter-spacing: 0.1rem;
+  font-size: 1.7rem;
+}

@@ -1,0 +1,191 @@
+/* Universal selector to reset margin, padding, and box-sizing for all elements */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Styling for background video to cover the entire viewport */
+#background-video {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -5; /* Places the video behind other content */
+}
+
+/* Styling for the navigation container */
+#nav-container {
+  width: 100%;
+  min-height: 8rem;
+  padding: 0rem 3rem;
+  font-size: 2rem;
+  justify-content: space-between;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+#app-icon {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0px 0px 12px 5px black;
+}
+
+/* Styling for the favourites button */
+#favourites {
+  background-color: transparent;
+}
+
+#favourites:hover {
+  border-right: 10px solid white;
+  padding-right: 1rem;
+  transition: 0.8s ease-in-out;
+}
+
+/* Main section styling */
+#main {
+  width: 100%;
+  height: 35.4rem;
+  flex-direction: column;
+}
+
+/* Styling for the search input field */
+#main input {
+  width: 30%;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0.5rem 1.5rem;
+}
+
+/* Styling for the placeholder text in the search input */
+#main input::placeholder {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main input[placeholder],
+*[placeholder] {
+  color: rgba(255, 255, 255, 1);
+}
+
+#main input:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 0.5rem;
+  transition: 1s ease-in-out;
+}
+
+/* Styling for the search button */
+#search-btn {
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#search-btn:hover {
+  background-color: rgba(255, 0, 0, 0.7);
+  transition: 0.8s ease-in-out;
+}
+
+/* Styling for the results container */
+#results {
+  width: 90%;
+  height: 30rem;
+  margin: 30px auto;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+
+#results::-webkit-scrollbar {
+  display: none;
+}
+
+/* Styling for each card in the results */
+.card {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 150px;
+  height: auto;
+  text-align: center;
+  margin: 1rem;
+  font-family: "Poppins";
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.card button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white;
+  cursor: pointer;
+  font-family: "Poppins";
+}
+
+.card button:nth-child(2n + 1) {
+  margin-bottom: 5px;
+}
+
+.card button:hover {
+  background: #b30000;
+}
+
+/* Common classes*/
+.display-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.font-size-small {
+  font-size: 1.7rem;
+}
+
+.margin-left {
+  margin-left: 1.5rem;
+}
+
+.bg-color {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.remove-decoration {
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.add-decoration {
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.font-poppins {
+  font-family: "Poppins";
+}
+
+.font-segoe {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.color-wh {
+  color: white;
+}

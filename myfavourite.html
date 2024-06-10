@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favourite Superheroes</title>
+
+    <!-- Link to Google Fonts for custom font 'Poppins' -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+
+    <!-- Link to external CSS files for styling -->
+    <link rel="stylesheet" type="text/css" href="CSS_Files/homeStyle.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="CSS_Files/myfavouriteStyle.css"
+    />
+
+    <!-- Link to external JavaScript library for cryptographic operations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+  </head>
+  <body>
+    <!-- Background image -->
+    <img src="Media/wallpaper2.jpeg" alt="photo" id="bg-image" />
+
+    <!-- Main container for favourite superheroes content -->
+    <div id="favouritesPage" class="container">
+      <!-- Page heading -->
+      <h2 class="text-c text-style">My Favourite Superheroes</h2>
+
+      <!-- Container for displaying favourite superheroes -->
+      <div id="results" class="display-flex"></div>
+
+      <!-- Button to navigate back to the home page -->
+      <button onclick="window.location.href='index.html'" id="button">
+        Back
+      </button>
+    </div>
+
+    <!-- Link to external JavaScript file for additional functionality -->
+    <script src="Javascript_Files/myfavouriteScript.js"></script>
+  </body>
+</html>
