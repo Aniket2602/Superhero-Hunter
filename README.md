@@ -60,7 +60,7 @@ Superhero Hunter is a web application that allows users to search for Marvel sup
 - Programming / Scripting: JavaScript (Vanilla JS)
 - Front-End: HTML, CSS
 - Integrated Development Environment: VSCode
-<p align="justify">
+<p style="text-align: center margin:10px 0px">
 <img height="140" width="140" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png">
 <img height="140" width="140" src="https://logodix.com/logo/470309.png">
 <img height="140" width="140" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
@@ -82,7 +82,7 @@ Please wait for some seconds for the API to load properly when you start searchi
 ## Demo
 > Checkout the Website [Web Application](https://aniket2602.github.io/Superhero-Hunter/)
 
-> Checkout the Application Demo Video [YouTube]()
+> Checkout the Application Demo Video [Video Link](https://drive.google.com/file/d/1xq-pfaBEt6DcwGFSs2BkEnBK51hFtzkd/view?usp=drive_link)
 
 <br>
 
